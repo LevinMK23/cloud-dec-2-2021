@@ -5,17 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/serverFiles/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/ExampleBuffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/ExamplesPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/cloud_client.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cloud-dec-2-2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/AbstractMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FileMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FilesList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/AbstractMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/ContextStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/HandlerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/StringMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/UserNameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/BannerIncutBody.kt" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/Incut.kt" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/IncutAbstractBody.kt" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/utils/time/TimeUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/client.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/cloud_client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/cloud_client.fxml" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/api/DefaultApiService.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/api/DefaultApiService.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/AppConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/AppConfig.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/DaoConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/DaoConfig.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ExecutorsConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ExecutorsConfig.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ServiceConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ServiceConfig.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/AdvertiserDao.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/AdvertiserDao.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/incut/IncutDao.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/incut/IncutDao.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper/IncutMapper.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper/IncutMapper.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/quartz/jobs/SimpleJob.kt" beforeDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/IncutService.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/IncutService.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/TestService.kt" beforeDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/validator/IncutRequestValidator.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/validator/IncutRequestValidator.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/advertiser/advertiser.sql" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/advertiser/advertiser.sql" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/changelog.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut/incut.sql" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut/incut.sql" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/test.sql" beforeDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/changelog.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/test.sql" beforeDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/openapi/api/api.yaml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/openapi/api/api.yaml" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest.kt" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/quartz/SimpleJobTest.kt" beforeDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/after.csv" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/after.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,24 +83,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/geekbrains/client" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25243506" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.geekbrains.netty" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/geekbrains/client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleBuffers">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.client.App" />
       <module name="cloud-dec-2-2021" />
@@ -105,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.server.Server" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.netty.NettyServer" />
       <module name="cloud-dec-2-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbrains.server.*" />
+          <option name="PATTERN" value="com.geekbrains.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +160,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.nio.NioServer" />
+      <module name="cloud-dec-2-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NioServer" />
         <item itemvalue="Application.ExampleBuffers" />
         <item itemvalue="Application.ExamplesPath" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -143,19 +210,32 @@
       <workItem from="1639160618118" duration="26000" />
       <workItem from="1639160662341" duration="1245000" />
       <workItem from="1639501964122" duration="24000" />
-      <workItem from="1639502095326" duration="6055000" />
+      <workItem from="1639502095326" duration="6616000" />
+      <workItem from="1639760831630" duration="6473000" />
     </task>
+    <task id="LOCAL-00001" summary="Lesson 2. Nio">
+      <created>1639508456948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639508456948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson 2. Nio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 2. Nio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java</url>
-          <line>83</line>
+          <line>87</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

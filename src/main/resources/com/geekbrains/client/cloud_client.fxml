@@ -10,5 +10,5 @@
    <ListView fx:id="clientFiles" layoutY="55.0" prefHeight="171.0" prefWidth="600.0"/>
    <ListView fx:id="serverFiles" layoutY="226.0" prefHeight="171.0" prefWidth="600.0"/>
    <Button onAction="#upload" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="263.0" text="upload"/>
-   <Button layoutX="323.0" layoutY="14.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="263.0" text="download"/>
+   <Button onAction="#downLoad" layoutX="323.0" layoutY="14.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="263.0" text="download"/>
 </AnchorPane>
