@@ -24,7 +24,6 @@ import javafx.scene.control.ListView;
 
 public class Controller implements Initializable {
 
-
     public ListView<String> clientFiles;
     public ListView<String> serverFiles;
     private Path baseDir;
@@ -97,6 +96,7 @@ public class Controller implements Initializable {
                     }
                 }
             });
+
             Socket socket = new Socket("localhost", 8189);
             os = new ObjectEncoderOutputStream(socket.getOutputStream());
             is = new ObjectDecoderInputStream(socket.getInputStream());
