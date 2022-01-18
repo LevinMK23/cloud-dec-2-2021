@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/IntFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/StreamExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/Test.java" afterDir="false" />
+    <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="Lesson 4. StreamApi">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/auth.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverFiles/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serverFiles/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/geekbrains/client" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/com/geekbrains/client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExamples">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.client.App" />
       <module name="cloud-dec-2-2021" />
@@ -137,24 +135,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.StreamExamples" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.NioServer" />
       </list>
@@ -178,7 +163,10 @@
       <workItem from="1639501964122" duration="24000" />
       <workItem from="1639502095326" duration="6616000" />
       <workItem from="1639760831630" duration="7157000" />
-      <workItem from="1640107179869" duration="5159000" />
+      <workItem from="1640107179869" duration="5479000" />
+      <workItem from="1640196665069" duration="5000" />
+      <workItem from="1640196707129" duration="514000" />
+      <workItem from="1640714021649" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2. Nio">
       <created>1639508456948</created>
@@ -194,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639767471609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson 4. StreamApi">
+      <created>1640112395547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640112395547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +198,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 2. Nio" />
     <MESSAGE value="Lesson 3. Netty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3. Netty" />
+    <MESSAGE value="Lesson 4. StreamApi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4. StreamApi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
